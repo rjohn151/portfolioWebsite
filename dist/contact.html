@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5da3dc40d8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Ramone Johnson Front End Developer</title>
+</head>
+
+<body>
+  <div id="container">
+
+  <!-- Header -->
+  <header id="header-home">
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-house-user"></i>Home</a></li>
+          <li><a href="experience.html"><i class="fa-solid fa-file-lines"></i>Experience</a></li>
+          <li><a href="projects.html"><i class="fa-solid fa-screwdriver-wrench"></i>Projects</a></li>
+          <li><a class="current" href="contact.html"><i class="fa-solid fa-address-card"></i>Contact</a></li>
+          <li><a href="resume.html"><i class="fa-solid fa-file-lines"></i>Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section 3: Get in Touch -->
+  <section id="contact-info">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <div class="bottom-line"></div>
+
+      <div class="grid3">
+
+        <div class="box1">
+          <!-- <h3>Location</h3> -->
+          <i class="fa-solid fa-location-dot fa-2x"></i>
+          <p>Miami, FL</p>
+        </div>
+        <div class="box2">
+          <!-- <h3>Phone</h3> -->
+          <i class="fa-solid fa-phone fa-2x"></i>
+          <p>(305)-794-4867</p>
+        </div>
+        <div class="box3">
+          <!-- <h3>Email</h3> -->
+          <i class="fa-solid fa-envelope fa-2x"></i>
+          <p>ramone_johnson@live.com</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 4: Contact Form -->
+  <section id="contact-form">
+    <div class="container">
+
+      <h1>Contact Form</h1>
+      <div class="bottom-line"></div>
+
+      <p>Please fill out the form to contact me.</p>
+
+      <form action="POST" data-netlify="true">
+
+        <div class="form-group">
+          <!-- <label for="name">Name</label> -->
+          <input type="text" name="name" id="name" placeholder="Full Name">
+        </div>
+
+        <div class="form-group">
+          <!-- <label for="email">Email</label> -->
+          <input type="email" name="email" id="email" placeholder="Email Address">
+        </div>
+
+        <div class="form-group">
+          <!-- <label for="message">Message</label> -->
+          <textarea name="message" id="message" placeholder="Your Message"></textarea>
+        </div>
+
+        <div class="form-group">
+          <div
+          data-netlify-recaptcha="true"></div>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- vertical lines sidebar -->
+  <div class="vertical-line-left"></div>
+  <div class="vertical-line-right"></div>
+
+  <!-- Icons on the side -->
+  <div class="icons">
+
+    <a href="https://github.com"><i class="fab fa-github"></i></a>
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+  </div>
+
+  <!-- Email on the right side-->
+  <!-- Add a way to press the email and sends an email straight away -->
+  <div class="email">
+    <p>ramone_johnson@live.com</p>
+  </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-container">
+        
+        <div class="social">
+          <a href="https://github.com"><i class="fab fa-github"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+  
+        <p>Designed & Built by Ramone Johnson</p>
+        <!-- <p>Copyright &copy; 2022 All Rights Reserved</p> -->
+      </div>
+  
+    </footer>
+
+</div>
+
+</body>
+
+</html>
